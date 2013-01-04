@@ -38,6 +38,11 @@ my @members = qw(
     ErinaIkuta
     MizukiFukumura
     RihoSayashi
+    IikuboHaruna
+    IshidaAyumi
+    SatohMasaki
+    KudohHaruka
+    OdaSakura
 );
 
 my @date_joined = map { Date::Simple->new($_) } qw(
@@ -50,6 +55,8 @@ my @date_joined = map { Date::Simple->new($_) } qw(
     2005-05-01
     2006-12-10
     2011-01-02
+    2011-09-29
+    2012-09-14
 );
 unshift @date_joined, undef;
 
